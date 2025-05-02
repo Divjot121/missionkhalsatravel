@@ -1604,3 +1604,60 @@ ul li {
         justify-content: center;
     }
 }
+
+.attractions {
+    padding: 4rem 0;
+    background-color: #f8f8f8;
+  }
+
+  .attractions .title {
+    text-align: center;
+    margin-bottom: 3rem;
+  }
+
+  .attractions-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 2rem;
+    padding: 0 2rem;
+  }
+
+  .attractions .box {
+    background: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.08);
+    transition: transform 0.3s ease;
+  }
+
+  .attractions .box:hover {
+    transform: translateY(-5px);
+  }
+
+  .attractions .box img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+  }
+
+  .attractions .info {
+    padding: 1rem;
+    text-align: center;
+  }
+
+  .attractions .info h3 {
+    font-size: 1.2rem;
+    color: #222;
+    margin-bottom: 0.5rem;
+  }
+
+  .attractions .info p {
+    font-size: 0.95rem;
+    color: #555;
+  }
+
+  .attractions .box img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+  }
